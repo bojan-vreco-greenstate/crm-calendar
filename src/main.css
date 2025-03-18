@@ -1,0 +1,34 @@
+@import 'tailwindcss';
+
+.rbc-event {
+  border-radius: 4px;
+  font-size: 14px;
+  border-color: #F9F9FB !important;
+}
+
+.rbc-event-content {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: bold;
+}
+
+.rbc-timeslot-group{
+  border: none;
+}
+
+.rbc-event-label {
+  display: none;
+}
+
+.rbc-timeslot-group {
+  min-height: 3.5rem;
+}
+
+.rbc-time-slot {
+  border-top: none !important; 
+}
+
+.rbc-timeslot-group{
+  border-bottom: 1px solid gainsboro;
+}
